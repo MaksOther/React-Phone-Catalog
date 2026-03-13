@@ -5,7 +5,7 @@
   padding: 24px;
   width: 100%;
   background-color: $bg-main;
-  border-radius: 8px; // ← аккуратное скругление всего блока
+  border-radius: 8px;
 
   .price {
     color: $color-light-1;
@@ -50,7 +50,7 @@
       background-color $transition-default,
       transform 0.15s ease;
 
-    border-radius: 8px; // ← скругление кнопки
+    border-radius: 8px;
 
     &:hover {
       background-color: $color-accent-hover;

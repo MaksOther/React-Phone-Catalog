@@ -45,7 +45,6 @@ Deno.serve(async (req) => {
       });
     }
 
-    // 🔥 ВАЖЛИВО: правильна модель для кожного методу
     const modelMap: Record<string, string> = {
       getCities: 'Address',
       getWarehouses: 'Address',

@@ -53,14 +53,12 @@
   }
 }
 
-// ── order list ────────────────────────────────────────────────────────────
 .orderList {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-// ── order card ────────────────────────────────────────────────────────────
 .orderCard {
   background: $color-surface-1;
   border: 1px solid #3b3e56;
@@ -145,7 +143,6 @@
   }
 }
 
-// ── order item row ────────────────────────────────────────────────────────
 .orderItem {
   display: grid;
   grid-template-columns: 56px 1fr auto auto;
